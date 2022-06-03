@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/pacesresort/static/css/main.a695a21e.css",
-    "main.js": "/pacesresort/static/js/main.8f5a8349.js",
+    "main.css": "/pacesresort/static/css/main.ed774e1a.css",
+    "main.js": "/pacesresort/static/js/main.a75fc52f.js",
+    "static/media/victor-freitas-cE31OaOfjbw-unsplash.jpg": "/pacesresort/static/media/victor-freitas-cE31OaOfjbw-unsplash.1316fcaffa362f769a72.jpg",
+    "static/media/photo-1577962917302-cd874c4e31d2.jpg": "/pacesresort/static/media/photo-1577962917302-cd874c4e31d2.55542186516557799db3.jpg",
+    "static/media/dylan-gillis-YJdCZba0TYE-unsplash.jpg": "/pacesresort/static/media/dylan-gillis-YJdCZba0TYE-unsplash.e84d1f799edf882baf03.jpg",
+    "static/media/IMG_8639.jpg": "/pacesresort/static/media/IMG_8639.2d6be256dd87fc744352.jpg",
     "static/media/homebgImg.jpg": "/pacesresort/static/media/homebgImg.2e414181cd81b88ce93f.jpg",
+    "static/media/13.jpg": "/pacesresort/static/media/13.500e5e19f4ab7bfa5764.jpg",
+    "static/media/catering.jpg": "/pacesresort/static/media/catering.3f6185983deaba4eeb8d.jpg",
     "index.html": "/pacesresort/index.html",
-    "main.a695a21e.css.map": "/pacesresort/static/css/main.a695a21e.css.map",
-    "main.8f5a8349.js.map": "/pacesresort/static/js/main.8f5a8349.js.map"
+    "main.ed774e1a.css.map": "/pacesresort/static/css/main.ed774e1a.css.map",
+    "main.a75fc52f.js.map": "/pacesresort/static/js/main.a75fc52f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a695a21e.css",
-    "static/js/main.8f5a8349.js"
+    "static/css/main.ed774e1a.css",
+    "static/js/main.a75fc52f.js"
   ]
 }
