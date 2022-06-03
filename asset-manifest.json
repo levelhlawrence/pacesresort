@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pacesresort/static/css/main.59ffe829.css",
+    "main.css": "/pacesresort/static/css/main.2030ad2a.css",
     "main.js": "/pacesresort/static/js/main.8f5a8349.js",
     "static/media/homebgImg.jpg": "/pacesresort/static/media/homebgImg.2e414181cd81b88ce93f.jpg",
     "index.html": "/pacesresort/index.html",
-    "main.59ffe829.css.map": "/pacesresort/static/css/main.59ffe829.css.map",
+    "main.2030ad2a.css.map": "/pacesresort/static/css/main.2030ad2a.css.map",
     "main.8f5a8349.js.map": "/pacesresort/static/js/main.8f5a8349.js.map"
   },
   "entrypoints": [
-    "static/css/main.59ffe829.css",
+    "static/css/main.2030ad2a.css",
     "static/js/main.8f5a8349.js"
   ]
 }
