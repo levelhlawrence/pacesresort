@@ -2,7 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
+// importing SCSS styles
 @import "./Nav.scss";
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,300&display=swap");
+@import "./Home.scss";
+@import "./About.scss";
+@import "./Contacts.scss";
+@import "./Gallery.scss";
+// importing fonts
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,300&family=Montserrat:wght@100;200;300;400;500;600&display=swap");
