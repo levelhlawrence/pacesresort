@@ -1,6 +1,6 @@
 const About = ({ imageData }) => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="about-header">
         <p>LEARN ABOUT</p>
         <h2>WHAT TO EXPECT</h2>

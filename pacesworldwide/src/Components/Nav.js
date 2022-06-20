@@ -1,12 +1,15 @@
+import react, { useState } from "react";
+// importing Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faRectangleXmark,
   faBars,
   faL,
 } from "@fortawesome/free-solid-svg-icons";
-import react, { useState } from "react";
+// importing site Logo
 import PacesLogo from "../Images/Paces+White_logo.png";
-import { Link } from "react-router-dom";
+// importing router
+import { HashLink as Link } from "react-router-hash-link";
 
 const Nav = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -15,10 +18,17 @@ const Nav = () => {
     setToggleMenu(!toggleMenu);
   };
 
+  const menuClickedHandler = (e) => {
+    if (e.target.tagName === "A" || e.target.tagName === "BUTTON") {
+      setToggleMenu(!toggleMenu);
+    }
+  };
   return (
     <nav>
       <div className="nav-body">
-        <img src={PacesLogo} alt="Paces Logo" />
+        <Link smooth to="#home">
+          <img src={PacesLogo} alt="Paces Logo" />
+        </Link>
         <FontAwesomeIcon
           icon={faBars}
           className={!toggleMenu ? "display" : "None"}
@@ -31,19 +41,27 @@ const Nav = () => {
             size="2x"
             onClick={menuHandler}
           />
-          <ul>
+          <ul onClick={menuClickedHandler}>
             <li>
-              <Link to={"/home"}>Home</Link>
+              <Link to={"#home"} smooth>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to={"/about"}>About</Link>
+              <Link to={"#about"} smooth>
+                About
+              </Link>
             </li>
             <li>
-              <Link to={"/gallery"}>Gallery</Link>
+              <Link to={"#gallery"} smooth>
+                Gallery
+              </Link>
             </li>
           </ul>
-          <button>
-            <Link to={"/contact"}>Book a Stay</Link>
+          <button onClick={menuClickedHandler}>
+            <Link to={"#contact"} smooth>
+              Book a Stay
+            </Link>
           </button>
         </div>
       </div>

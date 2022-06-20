@@ -29,7 +29,7 @@ const Gallery = ({ galleryImgData }) => {
   };
 
   return (
-    <div className="gallery-container">
+    <div className="gallery-container" id="gallery">
       <div className="gallery-header">
         <p>CHECK OUT</p>
         <h2>OUR GALLERY</h2>

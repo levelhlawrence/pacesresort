@@ -32,6 +32,10 @@
         padding: 1rem 2rem;
         font-size: 18px;
         transition: all 0.3s ease;
+
+        a {
+          color: inherit;
+        }
       }
       button:hover {
         background-color: white;

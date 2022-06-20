@@ -23,6 +23,23 @@
     }
   }
 
+  .img-selection {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    h3 {
+      font-weight: 400;
+      text-align: center;
+      margin: 0 2rem;
+    }
+
+    h3:hover {
+      cursor: pointer;
+      font-weight: 500;
+    }
+  }
+
   .gallery-images {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -38,6 +55,13 @@
         height: 100%;
         padding: 0.2rem;
         object-fit: cover;
+        transition: all ease 0.5s;
+      }
+
+      img:hover {
+        cursor: pointer;
+        object-position: 2px;
+        transition: all ease 0.3s;
       }
     }
   }
@@ -66,12 +90,10 @@
 
     .img-selection {
       display: flex;
-      justify-content: space-between;
-      margin-left: 10%;
-      margin-right: 10%;
       color: rgb(103, 103, 103);
       h3 {
         font-weight: 400;
+        font-size: 14px;
       }
       h3:hover {
         font-weight: 500;
