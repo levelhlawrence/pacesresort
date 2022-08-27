@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.20ffce65.css",
-    "main.js": "/static/js/main.eb4361f5.js",
+    "main.js": "/static/js/main.8aff5c1d.js",
     "static/media/victor-freitas-cE31OaOfjbw-unsplash.jpg": "/static/media/victor-freitas-cE31OaOfjbw-unsplash.1316fcaffa362f769a72.jpg",
     "static/media/photo-1577962917302-cd874c4e31d2.jpg": "/static/media/photo-1577962917302-cd874c4e31d2.55542186516557799db3.jpg",
     "static/media/IMG_9468.jpg": "/static/media/IMG_9468.f54d4505716af51deedf.jpg",
@@ -44,10 +44,10 @@
     "static/media/415c2230-d2d6-403c-8fff-376cdb95a51d.jpg": "/static/media/415c2230-d2d6-403c-8fff-376cdb95a51d.7784e1577ee6798e9e95.jpg",
     "index.html": "/index.html",
     "main.20ffce65.css.map": "/static/css/main.20ffce65.css.map",
-    "main.eb4361f5.js.map": "/static/js/main.eb4361f5.js.map"
+    "main.8aff5c1d.js.map": "/static/js/main.8aff5c1d.js.map"
   },
   "entrypoints": [
     "static/css/main.20ffce65.css",
-    "static/js/main.eb4361f5.js"
+    "static/js/main.8aff5c1d.js"
   ]
 }
