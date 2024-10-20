@@ -26,6 +26,7 @@
     background-color: white;
     border-radius: 0.3rem;
     cursor: pointer;
+    margin-top: 2rem;
   }
 
   #exit-btn {
@@ -35,7 +36,8 @@
     margin-bottom: 2rem;
   }
   #img-texts {
-    width: 80%;
+    max-width: 70%;
+    object-fit: cover;
   }
   img {
     width: 100%;

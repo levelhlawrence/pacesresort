@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ImageCarousel from "../Components/ImageCarousel";
 
 const Gallery = ({ galleryImgData }) => {
-  const [imgState, setImgState] = useState("villa");
+  const [imgState, setImgState] = useState(() => "villa");
   const [filteredImages, setFilteredImages] = useState([]);
 
   const [isRendered, setIsRendered] = useState(false);

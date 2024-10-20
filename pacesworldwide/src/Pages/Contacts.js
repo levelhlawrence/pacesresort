@@ -1,6 +1,7 @@
 const Contacts = () => {
   const formHandler = (e) => {
     e.preventDefault();
+    alert("This site is no longer talking registrations");
   };
   return (
     <div className="contacts-container" id="contact">
