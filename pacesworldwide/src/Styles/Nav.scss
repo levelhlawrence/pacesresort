@@ -123,14 +123,6 @@ nav {
           font-size: 28px;
           font-weight: 500;
           border: black 4px solid;
-          color: black;
-          a {
-            text-decoration: none;
-            color: black;
-          }
-        }
-        button:hover {
-          color: white;
         }
       }
     }
@@ -151,8 +143,6 @@ nav {
   }
 
   .active-style {
-    font-weight: "bold";
-    padding: "0.4rem 1rem";
-    background: "lightgray";
+    background-color: black;
   }
 }

@@ -104,6 +104,7 @@ const Nav = () => {
                     color: "white",
                     background: "black",
                     borderRadius: "0.5rem",
+                    fontSize: "large",
                   }
                 : {}
             }
