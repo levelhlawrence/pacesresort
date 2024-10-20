@@ -1,7 +1,7 @@
 {
   "name": "pacesworldwide",
   "version": "0.1.0",
-  "homepage": "https://quomy101.github.io/pacesresort",
+  "homepage": "https://www.retreat.pacesworldwide.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

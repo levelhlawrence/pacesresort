@@ -13,6 +13,15 @@ const Gallery = ({ galleryImgData }) => {
     setFilteredImages(galleryImgData.filter((img) => img.type === imgState));
   }, [imgState]);
 
+  useEffect(() => {
+    const carousel = document.querySelector("#img-container");
+    if (isRendered && carousel) {
+      carousel.scrollIntoView({
+        block: "center",
+      });
+    }
+  }, [isRendered]);
+
   const selectImageHandler = (e) => {
     if (e.target.innerText === "Villas") {
       setImgState("villa");
