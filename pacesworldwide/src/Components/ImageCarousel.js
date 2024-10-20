@@ -6,15 +6,12 @@ const ImageCarousel = ({ image, allImages, setIsRendered }) => {
   const [currentIndex, setCurrentIndex] = useState(image.index);
 
   const prevPhoto = () => {
-    console.log("left");
     const nextImg =
       currentIndex === 0 ? allImages.length - 1 : currentIndex - 1;
     setCurrentIndex(nextImg);
   };
 
   const nextPhoto = () => {
-    console.log("right");
-
     const prevImg =
       currentIndex === allImages.length - 1 ? 0 : currentIndex + 1;
     setCurrentIndex(prevImg);
