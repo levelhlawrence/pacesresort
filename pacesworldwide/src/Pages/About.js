@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from "uuid";
+
 const About = ({ imageData }) => {
   return (
     <div className="about-container" id="about">
@@ -9,6 +11,7 @@ const About = ({ imageData }) => {
         {imageData.map((data) => {
           return (
             <div
+              key={uuidv4()}
               style={{
                 backgroundImage: `url(${data.img})`,
               }}

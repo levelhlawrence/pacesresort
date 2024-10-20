@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
+import ImageCarousel from "../Components/ImageCarousel";
 
 const Gallery = ({ galleryImgData }) => {
-  const [imgState, setImgState] = useState("villa");
+  const [imgState, setImgState] = useState(() => "villa");
   const [filteredImages, setFilteredImages] = useState([]);
 
-  const [clickedImg, setClickedImg] = useState(null);
-  const [currentIndex, setCurrentIndex] = useState(null);
+  const [isRendered, setIsRendered] = useState(false);
+  const [carouselItems, setCarouselItems] = useState({});
   // rendering all images
 
   useEffect(() => {
@@ -22,10 +23,9 @@ const Gallery = ({ galleryImgData }) => {
     }
   };
 
-  const clickedImageHandler = (item, index) => {
-    setCurrentIndex(index);
-    setClickedImg(item.img);
-    console.log(item.img);
+  const renderImageCarousel = (item, index) => {
+    setIsRendered(true);
+    setCarouselItems({ item: item, index: index });
   };
 
   return (
@@ -42,16 +42,22 @@ const Gallery = ({ galleryImgData }) => {
       <div className="gallery-images">
         {filteredImages.map((item, index) => {
           return (
-            <div key={index} className="gallery-img-container">
-              <img
-                onClick={() => clickedImageHandler(item, index)}
-                id={item.id}
-                src={item.img}
-                alt={`${item.type} image`}
-              />
+            <div
+              key={index}
+              onClick={() => renderImageCarousel(item, index)}
+              className="gallery-img-container"
+            >
+              <img id={item.id} src={item.img} alt={`${item.type}`} />
             </div>
           );
         })}
+        {isRendered && (
+          <ImageCarousel
+            allImages={filteredImages}
+            image={carouselItems}
+            setIsRendered={setIsRendered}
+          />
+        )}
       </div>
     </div>
   );
